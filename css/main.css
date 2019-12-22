@@ -106,3 +106,66 @@ body {
 	margin: 3px 0;
 	border-radius: 5px;
 }
+
+.first-screen {
+	background: url('../img/first-screen-bg.png') no-repeat center;
+	background-size: cover;
+	padding-top: 182px;
+	padding-bottom: 258px;
+}
+
+.first-screen__content {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1170px;
+}
+
+.first-screen__title,.first-screen__sub-title {
+	font-family: 'Raleway';
+	font-size: 36px;
+}
+
+.first-screen__title {
+	font-weight: 600;
+	color: #fff;
+}
+
+.first-screen__sub-title {
+	font-weight: 300;
+	color: #FBFBFB;
+}
+
+.first-screen__description {
+	color: #9BC5CF;
+	font-size: 14px;
+	font-family: 'Raleway';
+	max-width: 470px;
+	margin-top: 40px;
+	margin-bottom: 52px;
+}
+
+.first-screen__button {
+	font-size: 21px;
+	color: #fff;
+	font-family: 'Raleway';
+	font-weight: 600;
+	padding: 20px 53px;
+	background-color: transparent;
+	border: 3px solid #90AFB2;
+	border-radius: 40px;
+}
+
+.first-screen__button:focus {
+	outline: none;
+	border: 3px solid #fff;
+	box-shadow: 0px 3px 5px #fcfcfc;
+}
+
+.first-screen__button:hover {
+	cursor: pointer;
+	color: #90AFB2;
+	background-color: #fff;
+	border: 3px solid #fff;
+}
+
+/*============= 2 screen =============*/
