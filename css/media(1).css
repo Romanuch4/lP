@@ -5,6 +5,15 @@
   .header, .first-screen__content {
     width: 99%;
   }
+
+  .second-screen__content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .second-screen__left {
+    margin-right: 0px;
+  }  
   
 }
 
@@ -94,5 +103,11 @@
 @media only screen and (max-width : 370px) {
   .header__right {
     right: 16px;
+  }
+
+  .second-screen__left__item {
+    width: 310px;
+    padding-left: 38px;
+    padding-right: 58px;
   }
 }
