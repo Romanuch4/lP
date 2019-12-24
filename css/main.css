@@ -218,6 +218,13 @@ body {
 	position: relative;
 }
 
+.second-screen__left__item:focus {
+	outline: none;
+	-webkit-box-shadow: 0px 5px 4px 0px rgba(50, 250, 50, 0.71);
+	-moz-box-shadow:    0px 5px 4px 0px rgba(50, 250, 50, 0.71);
+	box-shadow:         0px 5px 4px 0px rgba(50, 250, 50, 0.71);
+}
+
 .second-screen__left__item:hover {
 	cursor: pointer;
 	color: #606969;
@@ -288,3 +295,5 @@ body {
 	font-size: 16px;
 	color: #606969;
 }
+
+/*============= 3 screen =============*/
