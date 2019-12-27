@@ -169,8 +169,11 @@ body {
 }
 
 /*============= 2 screen =============*/
+.second-screen {
+	padding-top: 102px;
+}
+
 .second-screen__title {
-	padding-top: 180px;
 	font-size: 36px;
 	font-weight: 600;
 	font-family: 'Raleway';
@@ -297,3 +300,130 @@ body {
 }
 
 /*============= 3 screen =============*/
+.third-screen {
+	background-color: #F2F9FE;
+	padding: 80px 0px;
+}
+
+.third-screen__content {
+	display: flex;
+}
+
+.third-screen__title {
+	color: #59C182;
+	font-weight: 600;
+	font-family: 'Raleway';
+	font-size: 36px;
+	max-width: 480px;
+	margin-top: 82px;
+}
+
+.third-screen__hr {
+	background-color: #8F9797;
+	width: 104px;
+	height: 2px;
+	margin-top: 20px;
+	margin-bottom: 46px;
+}
+
+.third-screen__sub-title {
+	color: #8B9393;
+	max-width: 420px;
+	font-weight: 400;
+	font-family: 'Raleway';
+	font-size: 36px;
+	margin-bottom: 50px;
+}
+
+.third-screen__description {
+	max-width: 440px;
+	font-weight: 400;
+	font-family: 'Raleway';
+	font-size: 16px;
+	color: #8B9393;
+	margin-bottom: 50px;
+}
+
+.third-screen__button {
+	color: #636C6C;
+	border-color: #AAB2B5;
+}
+
+.third-screen__button:hover {
+	background-color: #636C6C;
+	color: #F2F9FE;
+}
+
+.third-screen__button:focus {
+	-webkit-box-shadow: 0px 5px 3px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 5px 3px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 5px 3px 0px rgba(50, 50, 50, 0.75);
+}
+
+.third-screen__content__left {
+	margin-right: 225px;
+}
+
+/*============= 4 screen =============*/
+.fourth-screen {
+	padding: 102px 0;
+	position: relative;
+}
+
+.fourth-screen__content {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.fourth-screen__slider {
+	box-sizing: border-box;
+	padding: 0 70px;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+.fourth-screen__slider__content {
+	width: 200%;
+	display: flex;
+	position: relative;
+	left: 0;
+}
+
+.fourth-screen__item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 290px;
+	padding-right: 80px;
+}
+
+.fourth-screen__item-last {
+	padding-right: 0;
+}
+
+.fourth-screen__slider__text {
+	color: #8B9292;
+	font-size: 14px;
+	font-family: 'Raleway';	
+	width: 250px;
+	text-align: center;
+	margin-top: 46px;
+}
+
+.fourth-screen__arrows {
+	position: absolute;
+	top: 48%;
+	cursor: pointer;
+}
+
+.fourth-screen__left {
+	left: 5%;
+}
+
+.fourth-screen__right {
+	right: 5%;
+}

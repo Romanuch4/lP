@@ -13,8 +13,20 @@
 
   .second-screen__left {
     margin-right: 0px;
-  }  
-  
+  }   
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1000px) {
+  .third-screen__content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .third-screen__content__left {
+    margin-right: 0;
+    margin-bottom: 60px;
+  }
 }
 
 /* Medium Devices, Desktops */
@@ -109,5 +121,9 @@
     width: 310px;
     padding-left: 38px;
     padding-right: 58px;
+  }
+
+  .third-screen__img {
+    width: 100%;
   }
 }
