@@ -427,3 +427,16 @@ body {
 .fourth-screen__right {
 	right: 5%;
 }
+
+/*============= 5 screen =============*/
+.fifth-screen__content__left {
+	margin-right: 0;
+}
+
+.fifth-screen__content {
+	flex-direction: row-reverse;
+}
+
+.fifth-screen__img {
+	margin-right: 82px;
+}
