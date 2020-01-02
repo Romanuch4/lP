@@ -440,3 +440,94 @@ body {
 .fifth-screen__img {
 	margin-right: 82px;
 }
+
+/*============= 6 screen =============*/
+.sixth-screen {
+	padding-top: 106px;
+	padding-bottom: 112px;
+}
+
+.sixth-screen__title {
+	font-size: 36px;
+	font-family: 'Raleway';	
+	font-weight: 600;
+	color: #626B6B;
+	text-align: center;
+	margin-bottom: 38px;
+}
+
+.sixth-screen__img {
+	border-radius: 50%;
+	display: block;
+	margin: 0 auto;
+}
+
+.sixth-screen__slider {
+	margin: 0 auto;
+	margin-top: 46px;
+	width: 100%;
+	max-width: 650px;
+	overflow-x: hidden;
+}
+
+.sixth-screen__slider__content {
+	width: 300%;
+	display: flex;
+	position: relative;
+	left: 0;
+}
+
+.sixth-screen__item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.sixth-screen__item__text {
+	font-family: 'Droid Serif';
+	font-style: italic;
+	font-size: 24px;
+	margin-bottom: 28px;
+	color: #8A9292;
+	margin-top: 40px;
+	text-align: center;
+}
+
+.sixth-screen__item__author {
+	font-size: 24px;
+	font-family: 'Raleway';
+	color: #5CC887;	
+	text-align: center;
+}
+
+.sixth-screen__navigator {
+	display: flex;
+	width: 52px;
+	margin: 0 auto;
+	margin-top: 40px;
+	justify-content: space-between;
+}
+
+.sixth-screen__navigator__item {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color:#8A9292;
+}
+
+.sixth-screen__navigator__item {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color:#8A9292;
+}
+
+.sixth-screen__navigator__item:hover {
+	cursor: pointer;
+	background-color: rgba(50, 250, 50, 0.71);
+}
+
+.sixth-screen__navigator__item:focus {
+	outline: none;
+	background-color: #5AC484;
+}
