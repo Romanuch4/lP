@@ -111,6 +111,25 @@
     position: relative;
     bottom: 68px;
   }
+
+  .seventh-screen__position {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .seventh-screen__input {
+    width: 90%;
+  }
+
+  .seventh-screen__button {
+    transform: translateX(0) skew(0);
+    right: 1%;
+  }
+
+  .seventh-screen__button:hover {
+    transform: translateX(0px) skew(15deg);
+  }
 }
 
 /* Small Devices, Tablets */
@@ -149,6 +168,24 @@
 
   .header {
     padding-bottom: 30px;
+  }
+
+  .seventh-screen__input {
+    width: 84%;
+  }
+
+  .seventh-screen__button {
+    transform: translateX(0) skew(0);
+    right: auto;
+    bottom: -80px;
+  }
+
+  .footer__nav__item {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 16px;
   }
 }
 
